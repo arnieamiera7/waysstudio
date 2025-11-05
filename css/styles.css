@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #007bff; /* Bright blue for buttons */
+  --navy-color: #000080; /* Navy blue for navbar & footer */
+  --light-color: #f8f9fa;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar & Footer */
+.navbar {
+  background-color: var(--navy-color) !important;
+}
+
+footer {
+  background-color: var(--navy-color);
+}
+
+/* Active nav link style */
+.nav-link.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Buttons (primary ones only) */
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #339cff;
+}
+
+/* Card images */
+.card img {
+  height: 230px;
+  object-fit: cover;
+}
